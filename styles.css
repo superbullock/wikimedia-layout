@@ -1,1 +1,78 @@
+html, body {
+    height 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
 
+
+.container {
+    height: 90%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-bottom: solid 1px #AAAAAA; 
+}
+
+.text {
+    height: 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.signature {
+    float: right;
+}
+
+.images {
+    clear: both;
+    height: 80%;
+    width: 100%;
+}
+
+.row {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.image-box {
+    margin: auto;
+    min-width: 135px;
+}
+
+.footer {
+    height: 10%;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.footer p {
+    font-size: 12px;
+    margin: auto;
+    
+}
+
+.nav {
+    margin: auto;
+    clear: both;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav p {
+    float: left;
+    display: inline-block;
+    margin: 10px 20px;
+    box-sizing: border-box;
